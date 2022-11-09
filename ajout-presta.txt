@@ -1,0 +1,8 @@
+Title : 
+ Ajout de prestation
+
+ const email=document.querySelector("#email");
+const password=document.querySelector("#password");
+if(password.value.length<8){
+    throw new Error('Mot de passe trop court')
+}
